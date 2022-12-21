@@ -1,0 +1,481 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+nav#firstNavigationBar {
+    background-color: white;
+    width: 100%;
+    height: 5em;
+    border: 2px solid #e51636;
+}
+img.cfa-logo {
+    float: left;
+    margin-top: -4.2em;
+    margin-left: -.6em;
+    width: 10em;
+    height: 10em;
+}
+#vertical-line {
+    float: left;
+    margin-top: -.1em;
+    margin-left: -.6em;
+    height: 5em;
+    border: 1px solid red;
+    
+
+}
+img.cfa-location {
+    float: left;
+    margin-top: 1.4em;
+    margin-left: .5em;
+    width:2em;
+    height: 2em;
+}
+
+a.blueunderline {
+    text-decoration: none;
+    color:#03396c;
+}
+ul a.redunderline{
+    text-decoration: none;
+    color:#e51636;
+}
+a :hover{
+    text-decoration: underline;
+}
+
+h4 {
+    color: #03396c;
+    float: left;
+    width: 9em;
+    margin-left: .6em;
+    margin-top: 1.9em;
+}
+ul {
+  float: left;
+  text-align: center;
+  font-size: 1.4em;
+  word-spacing: 1em;
+  list-style-type: none;
+  width: 17em;
+  height: 2.3em;
+  padding-top: 1.2em;
+  padding-right: 2em;
+  margin-top: 0em;
+  margin-left: 4.5em;
+  
+}
+li {
+    display: inline-block;
+    
+}
+a {
+    text-decoration: none;
+    color: #e51636;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+div#signin {
+    float: left;
+    margin-top: 1.2em;
+    margin-left: 7em;
+    padding-left: 1.4em;
+
+    width:18em;
+    font-size: .8em;
+
+    
+}
+p.cfaOne {
+    float: left;
+    margin-right: .4em;
+    font-size:1.2em;
+    color: #03396c;
+}
+.signin-link {
+    float:left;
+    margin-top: 1.2em;
+    color: #03396c;
+    
+}
+.signup-link {
+    float: left;
+    margin-top: 1.2em;
+    margin-left: .3em;
+    color: #03396c;
+}
+
+.navLine {
+    height: 3em;
+    float: left;
+    margin-top: .8em;
+    margin-left: .3em;
+    width: .1px;
+    background-color: black;
+}
+
+#orderNowButton1 {
+    margin-top: .9em;
+    margin-left:2em;
+    width: 8em;
+    height: 4em;
+    border-radius: 25px;
+    background-color:#e82e4a;
+    color: white;
+}
+#orderNowButton1:hover {
+    box-shadow: 1px 1px 8px black;
+    background-color:#e82e4a;
+    cursor: pointer;
+}
+
+#secondNavigationBar {
+    width: 100%;
+    height: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul#category {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 1.7em;
+    margin-right: 2em;;
+    padding-left: 2em;
+    padding-bottom: 3em;
+    font-size: 1.1em;
+    width: 90%; /* or any other width */
+    height: .1em; /* or any other height */
+    color: #e51636;
+    word-spacing: 2em;
+}
+
+li#DippingSauces {
+    padding-top: .3em;
+    word-spacing: .1em;
+    color: #e51636;
+}
+hr.navLine1 {
+    float: left;
+    height: 2em;
+    border: .1px solid red;
+    color: red;
+    margin-top: -.5em;
+    margin-left: -1em;
+}
+hr.navLine2 {
+    width: 75em;
+    
+}
+h1 {
+    color: #03396c;
+    font-size: 4em;
+    margin-top: .5em;
+    text-align: center;
+}
+
+h5#availabilityLocation {
+    margin-top: -2em;
+    text-align: center;
+    font-weight: 100;
+}
+main {
+    width: 89em;
+    float: left;
+}
+
+#firstRowFood {
+    margin-top: 2em;
+    padding-bottom: 4em;
+    height: 20em;
+    margin-left:2em;
+    
+}
+
+
+.cfaDeluxeImage {
+    margin-left: 4em;
+
+}
+
+#firstRowName {
+    display: flex;
+    justify-content: space-between; 
+    width: 75em;
+    margin: auto;
+}
+
+
+#firstRowCalories {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3em;
+    margin-top: -2em;
+    width: 84em;
+    font-weight: 100;
+}
+.firstRowCaloriesText1{
+    font-weight: 100;
+}
+.firstRowCaloriesText2 {
+    padding-left: 9.4em;
+    padding-right: 7em;
+    font-weight: 100;
+}
+.firstRowCaloriesText3 {
+    font-weight: 100;
+}
+
+div#firstRowButtons {
+    float:left;
+    width: 88em;
+    padding-left: 11em;
+    padding-right: 7em;
+}
+
+.firstRowButton1 {
+    width: 8em;
+    margin-left: 13em;
+    height: 4em;
+    border-radius: 25px;
+    background-color:#e82e4a;
+    color: white;
+}
+.firstRowButton2 {
+    margin-left: 30em;
+    margin-right: 13.8em;
+    width: 8em;
+    height: 4em;
+    border-radius: 25px;
+    background-color:#e82e4a;
+    color: white;
+}
+.firstRowButton1:hover {
+    box-shadow: 1px 1px 8px black;
+    background-color:#e82e4a;
+    cursor: pointer;
+}
+.firstRowButton2:hover {
+    box-shadow: 1px 1px 8px black;
+    background-color:#e82e4a;
+    cursor: pointer;
+}
+
+div#secondRowFood {
+    margin-top: 2em;
+    padding-bottom: 4em;
+    height: 20em;
+    margin-left:2em;
+}
+
+.grilledchickenImage {
+    margin-left: 4em;
+}
+
+div#secondRowName {
+  
+    display: flex;
+    justify-content: space-around; 
+    width: 86em;
+    margin-left: 3.2em;
+}
+.secondRowName2 {
+    margin-left: 3em;
+    margin-right: -2em;
+}
+
+#secondRowCalories {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3em;
+    margin-top: -2em;
+    width: 84em;
+    font-weight: 100;
+}
+.secondRowCaloriesText1{
+    font-weight: 100;
+}
+.secondRowCaloriesText2 {
+    padding-left: 5em;
+    padding-right: 1em;
+    font-weight: 100;
+}
+.secondRowCaloriesText3 {
+    font-weight: 100;
+    margin-left: 1em;
+}
+
+div#secondRowButton {
+    float:left;
+    width: 88em;
+    padding-left: 12.4em;
+    margin-top: -1em;
+
+}
+
+.secondRowButton1 {
+    margin-top: 1em;
+    width: 8em;
+    height: 4em;
+    border-radius: 25px;
+    background-color:#e82e4a;
+    color: white;
+}
+.secondRowButton2 {
+    margin-left: 28em;
+    margin-right: 25em;
+    width: 8em;
+    height: 4em;
+    border-radius: 25px;
+    background-color:#e82e4a;
+    color: white;
+}
+.secondRowButton1:hover {
+    box-shadow: 1px 1px 8px black;
+    background-color:#e82e4a;
+    cursor: pointer;
+}
+.secondRowButton2:hover {
+    box-shadow: 1px 1px 8px black;
+    background-color:#e82e4a;
+    cursor: pointer;
+}
+div#thirdRowFood {
+    margin-top: 2em;
+    padding-bottom: 4em;
+    height: 20em;
+    margin-left:2em;
+}
+
+.grillednuggetsImage {
+    margin-left: 1em;
+    margin-right: 3em;
+}
+
+div#thirdRowName {
+    display: flex;
+    justify-content: space-around; 
+    width: 86em;
+    margin-left: 3.2em;
+}
+
+.thirdRowName2 {
+    margin-left: 3em;
+    margin-right: -2em;
+}
+
+#thirdRowCalories {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3.7em;
+    margin-top: -2em;
+    width: 84em;
+    font-weight: 100;
+}
+.thirdRowCaloriesText1{
+    font-weight: 100;
+}
+.thirdRowCaloriesText2 {
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 2;
+    font-weight: 100;
+}
+.thirdRowCaloriesText3 {
+    font-weight: 100;
+   
+}
+
+div#thirdRowButton {
+    float:left;
+    width: 88em;
+    padding-left: 13.7em;
+    margin-top: -1em;
+
+}
+
+.thirdRowButton1 {
+    margin-top: 1em;
+    width: 8em;
+    height: 4em;
+    border-radius: 25px;
+    background-color:#e82e4a;
+    color: white;
+}
+.thirdRowButton2 {
+    margin-left: 26em;
+    margin-right: 26em;
+    width: 8em;
+    height: 4em;
+    border-radius: 25px;
+    background-color:#e82e4a;
+    color: white;
+}
+.thirdRowButton1:hover {
+    box-shadow: 1px 1px 8px black;
+    background-color:#e82e4a;
+    cursor: pointer;
+}
+.thirdRowButton2:hover {
+    box-shadow: 1px 1px 8px black;
+    background-color:#e82e4a;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #e82e4a;
+    height: 7em;
+    margin-top: 120em;
+    width: 73%;
+    padding: 20px;
+  }
+  
+ 
+
+  footer h4 {
+    margin: 0;
+    text-align: center;
+    color: white;
+  }
+
+  
+
+  div.bottom {
+    clear: both;
+    padding-top: 1em;
+    width: 55em;
+   
+  }
+  footer p {
+    float: left;
+    margin: 0 0 0 -.5em;
+    text-align: center;
+    margin-right: 2em;
+    color: white;
+  }
+  span {
+    float: left;
+    margin-top: -9.5em;
+    margin-left: 68em;
+    border: 1px solid #e82e4a;
+    border-right: 4px solid #e82e4a;
+    border-left: 4px solid #e82e4a;
+    height: 9.2em;
+    width: 23%;
+  }
+  span h3 {
+    color: #03396c;
+    margin-left: 4.4em;
+    font-size: 25px;
+  }
+  span img {
+    display: inline-block;
+    width: 50px;
+    margin: 4em 1em 2em 2.2em;
+  }
+ 
